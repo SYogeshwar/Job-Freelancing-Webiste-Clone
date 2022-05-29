@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./font/all.css">
+    <title>User Check</title>
+    <style>
+        *{
+                margin: 0;
+                padding: 0;
+                text-decoration: none;
+                box-sizing: border-box;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+            body{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                min-height: 100vh;
+            }
+            .userCheck-container{
+                display: flex;
+            }
+            .userCheck-container .freelancer{
+                background-color: #1D2228;
+                color: #fff;
+                font-size: 1.8rem;
+                height: 70vh;
+                width: 50vh;
+                cursor: pointer;
+                margin-right: 5rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 7px;
+                box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+            }
+            .userCheck-container .developer{
+                background-color: #fb8122;
+                color: black;
+                font-size: 1.8rem;
+                cursor: pointer;
+                height: 70vh;
+                width: 50vh;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 7px;
+                 color: #fff;
+                 box-shadow: 10px 10px 5px 0px #f3a66b;
+            }
+            .userCheck-container .freelancer a,.userCheck-container .developer a {
+                color: #fff;
+            }
+        @media (max-width: 1045px){
+            .userCheck-container .freelancer{
+                height: 40vh;
+                width: 30vh;
+                font-size: 1.2rem;
+            }
+            .userCheck-container .developer{
+                height: 40vh;
+                width: 30vh;
+                font-size: 1.2rem;
+            }
+        }
+        @media (max-width: 625px){
+            .userCheck-container{
+                flex-direction: column;
+            }
+            .userCheck-container .freelancer{
+                margin-bottom: 2rem;
+                 margin-right:0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="userCheck-container">
+        <div class="freelancer">
+            <a href="./resume.html"><i class="fa-solid fa-arrow-right"></i>I am Freelancer</a>
+        </div>
+        <div class="developer">
+            <a href=""><i class="fa-solid fa-arrow-right"></i>I am Hiring</a>     
+        </div>
+    </div>
+</body>
+</html>

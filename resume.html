@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="./font/all.css">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            text-decoration: none;
+        }
+        .resumePage-container nav{
+            height: 10vh;
+            box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.75);
+            line-height: 10vh;
+        }
+        .resumePage-container nav a{
+            margin: 0 2rem;
+            font-size: 1.2rem;
+            letter-spacing: -1px;
+            color:#fb8122;
+        }
+        .resumePage-container main{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: -6rem;
+            flex-direction: column;
+            min-height: 90vh;
+        }
+        .resumePage-container main h1{
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        .resumePage-container main p{
+            font-size: .9rem;
+        }
+        .resumePage-container main a{
+            margin-top: 2rem;
+            background-color: #fb8122;
+            color: #fff;
+            padding: .5rem 4rem;
+            border-radius: 2rem;
+        }
+        .resumePage-container main a:hover{
+            background-color: #f57412;
+        }
+    </style>
+</head>
+<body>
+    <div class="resumePage-container">
+      <nav>
+          <a href="./index.html">Cloud Trellis</a>
+      </nav>
+      <main>
+          <h1>How would you like to tell about yourself?</h1>
+          <p>We like to look on to your education experience and skills,Select option where you can show off</p>
+          <a href=""><i class="fa-brands fa-linkedin-in"></i>&nbsp; Import from linkedIn</a>
+          <a href=""><i class="fa-solid fa-upload"></i>&nbsp; Upload Your resume</a>
+      </main>
+    </div>
+</body>
+</html>

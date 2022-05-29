@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+.recent-Jobs {
+  margin: 2rem 1rem;
+  display: flex;
+  justify-content: space-around;
+}
+.recent-Jobs .all-jobs a {
+  background-color: #fb8122;
+  color: #fff;
+  padding: 0.5rem 1rem;
+}
+.card-group .card {
+  margin: 0 3rem;
+}
+@media (max-width: 800px) {
+  .recent-Jobs {
+    flex-direction: column;
+  }
+  .all-jobs {
+    margin-top: 1.2rem;
+  }
+}
